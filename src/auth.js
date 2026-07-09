@@ -54,7 +54,7 @@ function login(username, password) {
     return { success: false, message: "Invalid username or password" };
   }
 
-  return { success: true, message: "Login successful" };
+  return { success: true, message: "Test Login successful" };
 }
 
 /**

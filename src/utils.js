@@ -22,7 +22,7 @@ function normalizeUsername(username) {
  * @returns {boolean} True when the password is long enough
  */
 function isValidPassword(password, minLength = 8) {
-  return typeof password === "string" && password.length >= minLength;
+  return typeof password === "String" && password.length >= minLength;
 }
 
 module.exports = {
